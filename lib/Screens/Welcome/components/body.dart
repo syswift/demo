@@ -1,4 +1,3 @@
-import 'package:demo/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -91,7 +90,7 @@ class Body extends StatelessWidget {
               borderRadius: BorderRadius.circular(15),
               child: FlatButton(
                 padding: EdgeInsets.symmetric(vertical: 15, horizontal: 92),
-                color: Colors.lightBlueAccent,
+                color: Colors.lightBlue[200],
                 onPressed: () {},
                 child: Text(
                   "Register",
