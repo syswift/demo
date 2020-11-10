@@ -1,7 +1,8 @@
+
+import 'package:demo/Screens/camera_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../../app_screen.dart';
 
 class Body extends StatelessWidget {
   @override
@@ -57,7 +58,7 @@ class Body extends StatelessWidget {
                     context,
                     MaterialPageRoute(
                       builder: (context) {
-                        return AppScreen();
+                        return CameraScreen();
                       },
                     ),
                   );
